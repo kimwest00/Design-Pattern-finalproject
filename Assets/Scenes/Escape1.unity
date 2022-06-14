@@ -539,7 +539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 287.35, y: -21.266006}
+  m_AnchoredPosition: {x: 214, y: -4}
   m_SizeDelta: {x: 60.2938, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555351385
@@ -905,8 +905,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: -19}
-  m_SizeDelta: {x: 60.2937, y: 25.4679}
+  m_AnchoredPosition: {x: -220, y: -6}
+  m_SizeDelta: {x: 60.2937, y: 25.468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &762345794
 MonoBehaviour:
@@ -999,6 +999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 817983616}
+  - component: {fileID: 817983617}
   m_Layer: 0
   m_Name: ROOM1
   m_TagString: Untagged
@@ -1023,6 +1024,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817983617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817983615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee3e64e28974de42af6059e2e99c392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &833883551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1472,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1703168444}
   - component: {fileID: 1703168445}
-  m_Layer: 0
+  - component: {fileID: 1703168446}
+  m_Layer: 6
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,6 +1545,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1703168446
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703168443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1721743230
 GameObject:
   m_ObjectHideFlags: 0
